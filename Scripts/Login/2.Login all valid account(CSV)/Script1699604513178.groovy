@@ -17,3 +17,44 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.maximizeWindow()
+
+int maxRow = 0
+
+maxRow = findTestData('Account_Production').getRowNumbers()
+
+for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
+    WebUI.click(findTestObject('Object Repository/Login/Page_/btn_Login_Topmenu'))
+
+    WebUI.setText(findTestObject('Object Repository/Login/Page_/txt_userName'), findTestData('Account_Production').getValue(
+            1, rowNum))
+
+    WebUI.setText(findTestObject('Object Repository/Login/Page_/txt_passWord'), findTestData('Account_Production').getValue(
+            2, rowNum))
+
+    WebUI.click(findTestObject('Object Repository/Login/Page_/btn_submit_Login'))
+
+    Thread.sleep(2000)
+
+    actualURL = WebUI.getUrl()
+
+    WebUI.verifyMatch(actualURL, GlobalVariable.url + 'usermenu/both_item_search/', false)
+
+    WebUI.mouseOver(findTestObject('Object Repository/Login/Page_/lbl_iconUser'))
+
+    Thread.sleep(2000)
+
+    WebUI.click(findTestObject('Login/Page_/lbl_Logout'))
+	
+	Thread.sleep(2000)
+
+    actualURL = WebUI.getUrl()
+
+    WebUI.verifyMatch(actualURL, GlobalVariable.url, false)
+}
+
+WebUI.closeBrowser()
