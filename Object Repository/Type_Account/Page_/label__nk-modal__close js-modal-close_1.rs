@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label__nk-modal__close js-modal-close_1</name>
+   <tag></tag>
+   <elementGuidId>50a215cf-ca84-446e-a4ca-418164e55c9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.nk-modal__close.js-modal-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='dataSearch']/div/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2fb83afe-6155-4f95-ba8c-dc8fa6cabf09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>js-area</value>
+      <webElementGuid>5985fedc-3dd5-4b3c-9aa6-bc0c95419110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-modal__close js-modal-close</value>
+      <webElementGuid>4aac7d34-c849-4bbf-aabb-8bc6d97d6435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataSearch&quot;)/div[@class=&quot;nk-modal both-item-search&quot;]/div[@class=&quot;nk-modal__overlay&quot;]/div[@class=&quot;nk-modal__wrap nk-modal__wrap--area from-top a-center nk-form&quot;]/label[@class=&quot;nk-modal__close js-modal-close&quot;]</value>
+      <webElementGuid>f53fa5a8-41bb-43a4-aa11-6ea757d5b267</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='dataSearch']/div/div/div/label</value>
+      <webElementGuid>5bf1f6fa-8421-46a2-a907-e69f0777e4ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/label</value>
+      <webElementGuid>1030f800-fb9a-4d9a-95ca-dea57bd4710a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

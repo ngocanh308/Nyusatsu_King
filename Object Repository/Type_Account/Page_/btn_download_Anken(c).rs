@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_download_Anken(c)</name>
+   <tag></tag>
+   <elementGuidId>0511688d-2a81-4ac7-8a47-ec3256f6c5b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.nk-btn.nk-btn--csv.bookmark-anken__action-btn.export_csv</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frm']/div/div/section[3]/div/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d69db6ea-9679-42b8-98b4-0c6cfc1c5e06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-btn nk-btn--csv bookmark-anken__action-btn export_csv</value>
+      <webElementGuid>21485893-ad62-4bd0-9e01-3bd8cda83431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CSV保存</value>
+      <webElementGuid>4274859c-b81f-4891-ac9d-29483c735a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frm&quot;)/div[@class=&quot;item-search&quot;]/div[@class=&quot;bookmark-anken&quot;]/section[@class=&quot;sec&quot;]/div[@class=&quot;sec-inner&quot;]/div[@class=&quot;bookmark-anken__action&quot;]/a[@class=&quot;nk-btn nk-btn--csv bookmark-anken__action-btn export_csv&quot;]</value>
+      <webElementGuid>b27bde65-4dce-451b-97b9-5615398d832d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frm']/div/div/section[3]/div/div[4]/a</value>
+      <webElementGuid>ef168809-9435-46be-8ac5-bcbf9c9be231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ブックマーク一覧： 1 ページ中 1 ページを表示（合計11件）'])[1]/following::a[1]</value>
+      <webElementGuid>3fbd82fc-5c98-4ad7-9dc7-c5e483b7acd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='削除'])[1]/preceding::a[1]</value>
+      <webElementGuid>6c523c1b-84fe-4796-8758-fe814166a6e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>bce1ddad-62df-44a7-bb34-db1d169f16f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'CSV保存' or . = 'CSV保存')]</value>
+      <webElementGuid>b15e239e-8681-4c8b-a263-2932bdb2724f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

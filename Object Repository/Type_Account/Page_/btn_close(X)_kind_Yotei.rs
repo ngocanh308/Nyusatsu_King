@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_close(X)_kind_Yotei</name>
+   <tag></tag>
+   <elementGuidId>06d26c57-c395-4a94-92f0-e269c897cc0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#default_workkind > div.nk-modal__overlay > div.nk-modal__wrap.nk-modal__wrap--block.from-top.a-center.nk-form > label.nk-modal__close.js-modal-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='default_workkind']/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a8453f20-f58a-4c00-8721-fd7f0844c9e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>js-kw</value>
+      <webElementGuid>65939a25-846b-4635-9631-d4649b54eff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-modal__close js-modal-close</value>
+      <webElementGuid>8daafb49-83e7-4578-9934-edc7ef4d85c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;default_workkind&quot;)/div[@class=&quot;nk-modal__overlay&quot;]/div[@class=&quot;nk-modal__wrap nk-modal__wrap--block from-top a-center nk-form&quot;]/label[@class=&quot;nk-modal__close js-modal-close&quot;]</value>
+      <webElementGuid>c6aeb7f9-e28c-42f6-8cc1-47ee611aeaa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='default_workkind']/div/div/label</value>
+      <webElementGuid>dafb14b1-2566-43cf-aa21-d2f5c96ea6a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/label</value>
+      <webElementGuid>194ad385-88e4-4166-95eb-592bacc4f045</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

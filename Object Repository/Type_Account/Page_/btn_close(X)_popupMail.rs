@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_close(X)_popupMail</name>
+   <tag></tag>
+   <elementGuidId>cb8d2f0f-a3d0-44dc-a4e2-b976dbdbd9a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#rakusatsu-notice-result > div.nk-modal__overlay.overlay-rakusatsu-notice > div.nk-modal__wrap.nk-modal__wrap.from-top.a-center.nk-form > label.nk-modal__close.js-modal-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rakusatsu-notice-result']/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1e9f7364-41eb-4197-9762-b75901791bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>js-condition-mail-result</value>
+      <webElementGuid>9cbb11a7-be09-45d7-a4da-6a957a44143f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-modal__close js-modal-close</value>
+      <webElementGuid>b5237bb4-7fb5-4d87-8713-30ab39e86cfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rakusatsu-notice-result&quot;)/div[@class=&quot;nk-modal__overlay overlay-rakusatsu-notice&quot;]/div[@class=&quot;nk-modal__wrap nk-modal__wrap from-top a-center nk-form&quot;]/label[@class=&quot;nk-modal__close js-modal-close&quot;]</value>
+      <webElementGuid>de7f3703-c81a-4862-876a-1368831fa37f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rakusatsu-notice-result']/div/div/label</value>
+      <webElementGuid>37c47c69-bbd4-4c80-975d-875bf76e4121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/label</value>
+      <webElementGuid>17253588-6abb-4951-8eaf-54f509a25aa0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__1_2</name>
+   <tag></tag>
+   <elementGuidId>d5b3bfe7-a588-47b8-bfb3-446eca6afe4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.condition__form-btn-add.js-condition-mail-add-submit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rakusatsu-notice-mail']/div/div/div/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e5facdbd-b987-4ea1-9616-01e12925d01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>condition__form-btn-add js-condition-mail-add-submit</value>
+      <webElementGuid>4723995b-284f-4e52-9782-d728ef3a7dfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>登録</value>
+      <webElementGuid>a58e8868-2e87-4369-9266-b5a52cce5dd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rakusatsu-notice-mail&quot;)/div[@class=&quot;nk-modal__overlay overlay-rakusatsu-notice&quot;]/div[@class=&quot;nk-modal__wrap nk-modal__wrap from-top a-center nk-form&quot;]/div[@class=&quot;form-type-full&quot;]/div[@class=&quot;condition__form&quot;]/div[@class=&quot;condition__form-btn-wrap&quot;]/span[@class=&quot;condition__form-btn-add js-condition-mail-add-submit&quot;]</value>
+      <webElementGuid>5d818f6a-a418-40e6-b6dd-6f0e92f9db65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rakusatsu-notice-mail']/div/div/div/div/div[2]/span</value>
+      <webElementGuid>7703d30c-a879-4c60-813b-8aa05ccde017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='削除'])[2]/following::span[3]</value>
+      <webElementGuid>40f804b2-f1bd-4f53-9ca0-be026a114cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='競争・公募'])[4]/following::span[3]</value>
+      <webElementGuid>bb388fc9-34fd-470f-bd79-081ded922065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='配信メールのサンプルを見る'])[1]/preceding::span[1]</value>
+      <webElementGuid>8d5c6d45-aba2-47a7-a494-2eca312d9b84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOP'])[1]/preceding::span[1]</value>
+      <webElementGuid>33caccb1-1813-47cb-a0b1-bc8d28ae60e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='登録']/parent::*</value>
+      <webElementGuid>11662e54-ac2b-449e-8361-5b6d7b8f863f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>325725fe-d41a-4a8e-8e08-d33fa0d99749</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '登録' or . = '登録')]</value>
+      <webElementGuid>8fdc98a5-0704-4d54-84d9-ab48c81a6021</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

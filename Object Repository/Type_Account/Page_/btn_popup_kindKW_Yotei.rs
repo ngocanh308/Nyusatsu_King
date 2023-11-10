@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_popup_kindKW_Yotei</name>
+   <tag></tag>
+   <elementGuidId>6cdfea8c-f6af-44eb-8720-f7e28d991cb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.nk-btn.yotei-search__btn--kw.js-kw-open</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[2]/div[2]/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e2446679-9577-43b2-911b-481109525d15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-btn yotei-search__btn--kw js-kw-open</value>
+      <webElementGuid>061c9eee-e3c2-454b-8c94-c3dfedbb5d37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>キーワード選択</value>
+      <webElementGuid>cffd0f50-aef6-4bd8-9866-08fd5337fde0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;predictSearchForm&quot;)/section[@class=&quot;sec yotei-search js-nk-tab-menu-content&quot;]/div[@class=&quot;yotei-search__inner&quot;]/div[@class=&quot;yotei-search__f&quot;]/div[@class=&quot;yotei-search__f-box-wrap&quot;]/div[@class=&quot;yotei-search__f-box&quot;]/div[@class=&quot;yotei-search__f-box-r&quot;]/div[@class=&quot;yotei-search__kw yotei-search__kw--emphasize&quot;]/div[@class=&quot;yotei-search__kw-content-select&quot;]/label[@class=&quot;nk-btn yotei-search__btn--kw js-kw-open&quot;]</value>
+      <webElementGuid>01eb38a5-32f2-4834-a9c0-64d9b35756fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[2]/div[2]/div/div/label</value>
+      <webElementGuid>579dd3b6-765f-4f28-9a07-39f5b1fa9207</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='テンプレート表からキーワード選択'])[1]/following::label[1]</value>
+      <webElementGuid>b069c5f9-1d6b-4e82-9ec9-af9b9a06935f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='業種（種別・工種）検索キーワード'])[1]/following::label[1]</value>
+      <webElementGuid>893e84e4-06bc-45f4-8c8c-b5b9bd60a81d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or検索'])[2]/preceding::label[1]</value>
+      <webElementGuid>8340c6c3-12a4-4c0f-912d-7a45d7530058</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>01d198b0-4844-4693-a20c-6c7d4a1f8d3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'キーワード選択' or . = 'キーワード選択')]</value>
+      <webElementGuid>c24fc630-3d08-4a0b-8cf4-d5f3b1ea85b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

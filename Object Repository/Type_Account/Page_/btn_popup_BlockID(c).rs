@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_popup_BlockID(c)</name>
+   <tag></tag>
+   <elementGuidId>a306678e-02d9-411d-95a6-61008e9df9e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.nk-btn.yotei-search__btn--block.js-block-open</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[3]/div[2]/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a5bf4b4b-2aed-476e-83ae-fc6c8ddb4a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-btn yotei-search__btn--block js-block-open</value>
+      <webElementGuid>9419793c-bd23-4d5f-96d3-738a20bd335f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>発注機関を選択</value>
+      <webElementGuid>433c716a-e1a3-4639-916e-6305c7c2e1b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;predictSearchForm&quot;)/section[@class=&quot;sec yotei-search js-nk-tab-menu-content&quot;]/div[@class=&quot;yotei-search__inner&quot;]/div[@class=&quot;yotei-search__f&quot;]/div[@class=&quot;yotei-search__f-box-wrap&quot;]/div[@class=&quot;yotei-search__f-box&quot;]/div[@class=&quot;yotei-search__f-box-r&quot;]/div[@class=&quot;yotei-search__block&quot;]/div[@class=&quot;yotei-search__block-btn-wrap&quot;]/label[@class=&quot;nk-btn yotei-search__btn--block js-block-open&quot;]</value>
+      <webElementGuid>547a797c-55b2-4bae-b40e-96c80c3691ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[3]/div[2]/div/div/label</value>
+      <webElementGuid>0afcecae-d371-4292-86b3-535e50d2f583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='発注機関選択'])[1]/following::label[1]</value>
+      <webElementGuid>7dd3c1f8-3cfa-48fa-85a0-893cd1641867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='not検索'])[2]/following::label[1]</value>
+      <webElementGuid>9f6d8107-3c0f-41c6-a481-723019f0125d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='※小カテゴリはメール配信設定に含まれません。'])[1]/preceding::label[1]</value>
+      <webElementGuid>8d046f3e-3d70-455e-a8a1-f1416bd57232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/label</value>
+      <webElementGuid>806093cd-2852-416e-8f4b-5517b0840e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '発注機関を選択' or . = '発注機関を選択')]</value>
+      <webElementGuid>d91b98e0-f65d-44e1-bdf2-a9b31a002e55</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

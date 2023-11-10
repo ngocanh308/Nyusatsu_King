@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_popup_Area_Yotei</name>
+   <tag></tag>
+   <elementGuidId>7e00f0aa-025a-4731-b76b-c89d1cde334f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.nk-btn.yotei-search__btn--area.js-area-open > span.nk-btn-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[5]/div[2]/div/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6b30b664-09c0-4be1-aaf5-9d85fdeb1056</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-btn-inner</value>
+      <webElementGuid>6c01c060-4004-4ac2-a271-aeeff48c3d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>発注地域を選択</value>
+      <webElementGuid>50211b6c-3d73-40fe-811a-8bac735299f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;predictSearchForm&quot;)/section[@class=&quot;sec yotei-search js-nk-tab-menu-content&quot;]/div[@class=&quot;yotei-search__inner&quot;]/div[@class=&quot;yotei-search__f&quot;]/div[@class=&quot;yotei-search__f-box-wrap&quot;]/div[@class=&quot;yotei-search__f-box&quot;]/div[@class=&quot;yotei-search__f-box-r&quot;]/div[@class=&quot;yotei-search__area&quot;]/label[@class=&quot;nk-btn yotei-search__btn--area js-area-open&quot;]/span[@class=&quot;nk-btn-inner&quot;]</value>
+      <webElementGuid>9ccfaf04-d1cf-4ca2-8175-5fafa62af11d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='predictSearchForm']/section[2]/div/div/div/div[5]/div[2]/div/label/span</value>
+      <webElementGuid>44f08cdd-09ac-4899-b622-b02246b9675f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='発注地域'])[1]/following::span[1]</value>
+      <webElementGuid>94be9bbd-fb56-4275-9538-bb0ceb9f0837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='※2020年度分から収集を開始していますが、2019年度分も一部収集をしています'])[1]/following::span[1]</value>
+      <webElementGuid>4dd1173a-5e94-405c-981b-9fffe44031ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='入札種別'])[1]/preceding::span[1]</value>
+      <webElementGuid>e338989e-c57f-4ade-8df6-fbc0c37beada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='競争・公募'])[1]/preceding::span[1]</value>
+      <webElementGuid>a159751f-82d9-41cc-b964-9e2ded953b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='発注地域を選択']/parent::*</value>
+      <webElementGuid>e6062b2c-0d9a-448e-aa48-e69756c12fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label/span</value>
+      <webElementGuid>5096d71f-32a2-405f-8c1c-8a74e96e0f4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '発注地域を選択' or . = '発注地域を選択')]</value>
+      <webElementGuid>2c595267-eb93-42fd-8005-d2e164aaf7b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

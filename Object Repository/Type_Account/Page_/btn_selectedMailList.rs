@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_selectedMailList</name>
+   <tag></tag>
+   <elementGuidId>5063e6ed-1532-4136-ac51-bbe2ed161ffc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.nk-modal__overlay.overlay-rakusatsu-notice</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rakusatsu-notice-mail']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>652baa26-deee-4c3c-ac68-b7c74ca27e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nk-modal__overlay overlay-rakusatsu-notice</value>
+      <webElementGuid>a9bac0a5-4889-4ef8-a04c-478d34613e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 配信先メールアドレス 落札情報を配信するメールアドレスを200件まで保存できます。   登録</value>
+      <webElementGuid>e4b90974-4bab-4fd4-aa9f-d1c04f37ab87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rakusatsu-notice-mail&quot;)/div[@class=&quot;nk-modal__overlay overlay-rakusatsu-notice&quot;]</value>
+      <webElementGuid>e9b7ee1a-ba93-4df4-94fb-ab2330a4eace</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rakusatsu-notice-mail']/div</value>
+      <webElementGuid>a5b2ce9b-db58-47b9-a735-5d2e1e188da8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='削除'])[2]/following::div[3]</value>
+      <webElementGuid>02c60ee1-232c-4186-ac4f-24aef1ffcc84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='競争・公募'])[4]/following::div[4]</value>
+      <webElementGuid>ce59a5d1-84d2-4677-b6fb-aa0b40161531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='配信メールのサンプルを見る'])[1]/preceding::div[11]</value>
+      <webElementGuid>a8f58b73-b1f5-485e-8452-0c39cf7dac1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>eaa40f3c-9f77-4b1d-85b4-b6b31f4afe80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 配信先メールアドレス 落札情報を配信するメールアドレスを200件まで保存できます。   登録' or . = ' 配信先メールアドレス 落札情報を配信するメールアドレスを200件まで保存できます。   登録')]</value>
+      <webElementGuid>e0ad209d-05d8-4672-ab09-517b6d8d0c30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
