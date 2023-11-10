@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_textErrorLogin</name>
+   <tag></tag>
+   <elementGuidId>584cb408-752b-4188-be3f-2eb6181c8203</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-muted.mb-0.login_fail > small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-login']/div/div/div/div/p[2]/small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>f4de8ec1-770a-4f41-b9e7-1085201ec656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>※登録したメールアドレス・パスワードをご確認ください。</value>
+      <webElementGuid>9f455ca6-0d62-4bfc-9fe7-2e3a39c512e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-login&quot;)/div[@class=&quot;modal-dialog modal-sm row align-items-center min-vh-100&quot;]/div[@class=&quot;modal-content card&quot;]/div[@class=&quot;card-body py-5 px-sm-5&quot;]/div[@class=&quot;mb-5 text-center&quot;]/p[@class=&quot;text-muted mb-0 login_fail&quot;]/small[1]</value>
+      <webElementGuid>9459b0a7-6e8b-469a-ba71-2bf861d6d6d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-login']/div/div/div/div/p[2]/small</value>
+      <webElementGuid>f5e876cb-b411-45c9-83cb-5c640242fdc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='※登録したメールアドレス・パスワードを入力してください'])[1]/following::small[1]</value>
+      <webElementGuid>8a9930d5-8e2a-4647-aa3d-20148116dff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::small[2]</value>
+      <webElementGuid>be0d6555-c0c4-4f97-8aa2-f4edbba7e595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::small[1]</value>
+      <webElementGuid>69fa8b17-da5f-4340-bdbc-7a618c12756c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::small[1]</value>
+      <webElementGuid>ccded691-0b87-445c-b4a5-d63dcad51bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='※登録したメールアドレス・パスワードをご確認ください。']/parent::*</value>
+      <webElementGuid>25fae17c-5536-4f32-b337-affc31d0696c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/small</value>
+      <webElementGuid>b01fd8e1-a503-473b-bc11-bfd27b056180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[(text() = '※登録したメールアドレス・パスワードをご確認ください。' or . = '※登録したメールアドレス・パスワードをご確認ください。')]</value>
+      <webElementGuid>c732feb4-705a-4dfc-9939-0ae7e79c5e74</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
