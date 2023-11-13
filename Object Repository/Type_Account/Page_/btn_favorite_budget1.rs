@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_favorite_budgetText</name>
+   <name>btn_favorite_budget1</name>
    <tag></tag>
-   <elementGuidId>84a04d7a-e109-4a38-a6e2-d5c8260efd70</elementGuidId>
+   <elementGuidId>163b8779-562a-4f72-87d8-f48401bfc342</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,11 +11,11 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@id=&quot;searchResult&quot;]/div[1]/div[1]/span</value>
+         <value>//*[@id=&quot;searchResult&quot;]/div[1]/div[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;searchResult&quot;]/div[1]/div[1]/span</value>
+         <value>//*[@id=&quot;searchResult&quot;]/div[1]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

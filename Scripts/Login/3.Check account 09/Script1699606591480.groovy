@@ -91,25 +91,23 @@ for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
 		WebUI.verifyMatch(actualURL, GlobalVariable.url + 'usermenu/guide_budget/', false)
 		
 	}
-
-    else 
+	else 
     {
 		
 		WebUI.verifyMatch(actualURL, GlobalVariable.url + 'usermenu/budget_search/', false)
 		
-		// Verify account 9 get list start from 2014 - 2024
 		SelectedItemsStart = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Type_Account/Page_/dpl_StartYear_Budget'))
 		
-		// Verify account 9 get list end from 2014 - 2024
 		SelectedItemsEnd = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Type_Account/Page_/dpl_EndYear_Budget'))
 		
+		// Verify acocunt 2,3,8,10 use trial budget -> Droplist exist 3 items
 		if(rowNum in [2,3,8,10])
 		{
 			WebUI.verifyEqual(SelectedItemsStart, 3)
 			
 			WebUI.verifyEqual(SelectedItemsEnd, 3)
 		}
-		else
+		else // Verify acocunt 5,6,9 use paid  budget -> Droplist exist 11 items
 		{
 			WebUI.verifyEqual(SelectedItemsStart, 11)
 			
@@ -184,24 +182,28 @@ for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
 		
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Type_Account/Page_/list_result_budget'), 3, FailureHandling.STOP_ON_FAILURE)
 		
-//		//// 12. Verify that add favorite successfully
-//		WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget'))
-//		
-//		WebUI.mouseOver(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_top'))
-//		
-//		actualText = WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText'))
-//		
-//		println("a_________________"+actualText)
-//		
-//		WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget'))
-//		
-//		//WebUI.verifyMatch(actualText, "お気に入りに追加", false)
-//		//
-//		//
-//		//// Verify uncheck when click again button favorite
-//		//WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget'))
-//		//
-//		//WebUI.verifyElementText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText'), 'お気に入りに追加')
+		//// 12. Verify that add favorite successfully
+		WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget1'))
+		
+		WebUI.mouseOver(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_top'))
+		
+		actualText_check = WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText2'))
+		
+		WebUI.verifyMatch(actualText_check, "お気に入りに追加済", false)
+		
+		WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget2'))
+		
+		actualText_uncheck = WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText1'))
+		
+		WebUI.verifyMatch(actualText_uncheck, "お気に入りに追加", false)
+		
+		//WebUI.verifyMatch(actualText, "お気に入りに追加", false)
+		//
+		//
+		//// Verify uncheck when click again button favorite
+		//WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget1'))
+		//
+		//WebUI.verifyElementText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText1'), 'お気に入りに追加')
     }
 	WebUI.scrollToPosition(100, 20)
 	
@@ -211,3 +213,5 @@ for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
 	
 	WebUI.click(findTestObject('Login/Page_/lbl_Logout'))
 }
+
+WebUI.closeBrowser()
