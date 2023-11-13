@@ -166,13 +166,6 @@ for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
 		
 		Thread.sleep(2000)
 		
-		// 11. Verify that display alert when search 0 item -> clear text
-		//String AlertText = driver.switchTo().alert().getText()
-		//
-		//WebUI.verifyEqual(AlertText, '検索結果は０件です。検索条件を変えて検索してください。')
-		//if (WebUI.verifyAlertPresent(30)) {
-		//    println('Alert is present')
-		//}
 		WebUI.clearText(findTestObject('Object Repository/Type_Account/Page_/txt_InputKW_Budget'))
 		
 		//// 12. Verify that return valid result
@@ -191,20 +184,15 @@ for (def rowNum = 1; rowNum <= maxRow; rowNum++) {
 		
 		WebUI.verifyMatch(actualText_check, "お気に入りに追加済", false)
 		
+		//// 12. Verify that remove favorite successfully		
 		WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget2'))
 		
 		actualText_uncheck = WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText1'))
 		
 		WebUI.verifyMatch(actualText_uncheck, "お気に入りに追加", false)
-		
-		//WebUI.verifyMatch(actualText, "お気に入りに追加", false)
-		//
-		//
-		//// Verify uncheck when click again button favorite
-		//WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget1'))
-		//
-		//WebUI.verifyElementText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText1'), 'お気に入りに追加')
     }
+	
+	// Logout
 	WebUI.scrollToPosition(100, 20)
 	
 	WebUI.mouseOver(findTestObject('Object Repository/Login/Page_/lbl_iconUser'))

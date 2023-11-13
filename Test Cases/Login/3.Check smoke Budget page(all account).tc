@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3.Check account 09</name>
+   <name>3.Check smoke Budget page(all account)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>941c0893-d070-4a2c-bbe0-381a3938e712</testCaseGuid>
