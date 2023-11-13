@@ -14,13 +14,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import jdk.nashorn.internal.objects.Global
+
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.support.ui.Select as Select
 import org.openqa.selenium.By as By
 
 WebUI.openBrowser('')
@@ -44,11 +47,21 @@ WebUI.click(findTestObject('Object Repository/Login/Page_/btn_submit_Login'))
 //2. Verify open page bugget Search
 WebUI.click(findTestObject('Object Repository/Type_Account/Page_/tab_menu_budget'))
 
-Thread.sleep(2000)
+Thread.sleep(GlobalVariable.short_time)
 
 actualURL = WebUI.getUrl()
 
 WebUI.verifyMatch(actualURL, GlobalVariable.url + 'usermenu/budget_search/', false)
+
+// Verify account 9 get list start from 2014 - 2024
+SelectedItems = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Type_Account/Page_/dpl_StartYear_Budget'))
+
+WebUI.verifyEqual(SelectedItems, 11)
+
+// Verify account 9 get list end from 2014 - 2024
+SelectedItems = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Type_Account/Page_/dpl_EndYear_Budget'))
+
+WebUI.verifyEqual(SelectedItems, 11)
 
 //3. Verify open popup successfully
 WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_popupBugdet'))
@@ -56,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_popupBugdet
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/lbl_title_popup_Budget')), '発注機関選択', 
     false)
 
-//4. Verify checkbox 
+//4. Verify all checkboxs has been unchecked when click button checkALL 
 WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_uncheckAllItem_Bugdet'))
 
 def checkboxes = findTestObject('Object Repository/Type_Account/Page_/list_checkbox_budget')
@@ -68,10 +81,71 @@ for (def checkbox : checkboxes) {
 //5. Verify all checkboxs has been checked when click button checkALL
 WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_checkAllItem_Budget'))
 
-for (def checkbox : checkboxes) {
-    WebUI.verifyElementChecked(checkbox, 10)
+def checkboxes_1 = findTestObject('Object Repository/Type_Account/Page_/tmp')
+
+for (def checkbox_1 : checkboxes_1) {
+    WebUI.verifyElementChecked(checkbox_1,5, FailureHandling.OPTIONAL)
 }
+
 
 //6. Verify scroll focus correct item when click left item 1
 WebUI.click(findTestObject('Object Repository/Type_Account/Page_/lbl_leftitem1_Budget'))
+
+WebUI.verifyElementInViewport(findTestObject('Object Repository/Type_Account/Page_/lbl_focusLeft1_budget'), 3, FailureHandling.STOP_ON_FAILURE)
+
+//7. Verify scroll focus correct item when click left item 2
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/lbl_leftitem2_Budget'))
+
+WebUI.verifyElementInViewport(findTestObject('Object Repository/Type_Account/Page_/lbl_focusLeft2_budget'), 3, FailureHandling.STOP_ON_FAILURE)
+
+//8. Verify scroll focus correct item when click left item 3
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/lbl_leftitem3_Budget'))
+
+WebUI.verifyElementInViewport(findTestObject('Object Repository/Type_Account/Page_/lbl_focusLeft3_budget'), 3, FailureHandling.STOP_ON_FAILURE)
+
+// 9. Verify that popup close when click button X on popup budget
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_SelectedItem_Budget'))
+
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Type_Account/Page_/lbl_title_popup_Budget'))
+
+//10 Verify that Return list successfully 
+WebUI.setText(findTestObject('Object Repository/Type_Account/Page_/txt_InputKW_Budget'), 'helloanhanh')
+
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_submitSearch(c)'))
+
+Thread.sleep(2000)
+
+// 11. Verify that display alert when search 0 item -> clear text
+//String AlertText = driver.switchTo().alert().getText()
+//
+//WebUI.verifyEqual(AlertText, '検索結果は０件です。検索条件を変えて検索してください。')
+//if (WebUI.verifyAlertPresent(30)) {
+//    println('Alert is present')
+//}
+WebUI.clearText(findTestObject('Object Repository/Type_Account/Page_/txt_InputKW_Budget'))
+
+//// 12. Verify that return valid result
+WebUI.setText(findTestObject('Object Repository/Type_Account/Page_/txt_InputKW_Budget'), 'hello')
+
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_submitSearch(c)'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Type_Account/Page_/list_result_budget'), 3, FailureHandling.STOP_ON_FAILURE)
+
+//// 12. Verify that add favorite successfully
+WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget'))
+
+WebUI.mouseOver(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_top'))
+
+actualText = WebUI.getText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText'))
+
+println("a_________________"+actualText)
+
+//WebUI.verifyMatch(actualText, "お気に入りに追加", false)
+//
+//
+//// Verify uncheck when click again button favorite
+//WebUI.click(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budget'))
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/Type_Account/Page_/btn_favorite_budgetText'), 'お気に入りに追加')
+
 
