@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input.subjectOR</value>
+         <value>div#subjectORTable input:nth-child(1)</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>807bec57-5e34-4765-9f11-3138cb13d531</webElementGuid>
+      <webElementGuid>fe2b8a70-c188-4adf-a716-f8dcd2ebb54e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>beb2a141-3973-4d86-b19f-777db5fb85e1</webElementGuid>
+      <webElementGuid>3cefbc82-e56d-4689-a1f3-dc1da5a650e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>subjectOR</value>
-      <webElementGuid>deb82c36-4541-4574-a3cf-3b7ccc021c55</webElementGuid>
+      <webElementGuid>92f3e57c-c5b8-4df8-bc80-8f7d395b5cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-tg_class</name>
       <type>Main</type>
       <value>subjectOR</value>
-      <webElementGuid>b68cdc4d-34a0-47bd-be98-5eedc498d8c5</webElementGuid>
+      <webElementGuid>e2ff34d1-0fc6-4e25-aeac-dc1841f16871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>cf09f5c3-55cf-40f0-9f1b-45bfc5e25ce6</webElementGuid>
+      <webElementGuid>86399da0-bd36-42f6-9258-f1b4aa79b019</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;subjectORTable&quot;)/input[@class=&quot;subjectOR&quot;]</value>
-      <webElementGuid>1836b4ec-a6ce-49ad-8b86-24e74d801305</webElementGuid>
+      <webElementGuid>fd64437d-0e20-42da-a519-502ded938e83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>09b0a4e6-b613-4110-aa82-0567a6455dcf</webElementGuid>
+      <webElementGuid>e59507d3-5a3d-4307-8c5a-6c6974d642df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='subjectORTable']/input</value>
-      <webElementGuid>9565a54d-47a0-45b0-aa06-b5f36916d178</webElementGuid>
+      <webElementGuid>fdbbc295-624c-49e9-b8fa-666355d4115b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>9cdbc431-e1f2-440f-87b7-9220a02403fa</webElementGuid>
+      <webElementGuid>94d7447d-c56c-4ec0-8068-e625784281a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>debe7ba2-e22e-4bbb-a362-a0d8a6a5549f</webElementGuid>
+      <webElementGuid>766edf57-f21a-4c10-bead-0530b395d7ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

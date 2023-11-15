@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='global']/ul/li[8]/a</value>
+         <value>//div[@id='js-block__medium-list_1' and @class='block__medium']//input[@type='checkbox']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>.check-parts</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d8ba9fb7-e6ae-4fe5-9db6-b29504d18f8a</webElementGuid>
+      <webElementGuid>3e9fd518-3196-4e81-bb9c-d5c49951c528</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#modal-login</value>
-      <webElementGuid>2a7f9139-dbf8-4e23-b0c4-0dbb3aee056a</webElementGuid>
+      <webElementGuid>975eedd9-a2b1-4bd1-b926-e8f915706fcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>00a4c21f-9131-4181-bbb9-a316653a3381</webElementGuid>
+      <webElementGuid>38ae414a-ac1e-4fd5-bef1-787ce8fafd10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>5f0e5604-05f0-4760-88db-ebaf7654b0e2</webElementGuid>
+      <webElementGuid>aa4c1aea-b6b8-4fdd-8bab-79b8a524686a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>会員ログイン</value>
-      <webElementGuid>4e270e18-fb45-4fa0-8c50-ff4313d727c4</webElementGuid>
+      <webElementGuid>b14aecb5-4d71-4c28-aa0f-ba891dfc3c43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;global&quot;)/ul[1]/li[@class=&quot;nav-link--login&quot;]/a[1]</value>
-      <webElementGuid>99a3b55f-4bc9-40b4-8772-079f32aadf2b</webElementGuid>
+      <webElementGuid>b15feb0d-1b41-4da0-964f-126b5a02f0af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='global']/ul/li[8]/a</value>
-      <webElementGuid>9ec028fb-da4b-4f4e-a586-02086b289c4c</webElementGuid>
+      <webElementGuid>556c4b35-ff8e-4094-b305-0ceeee413e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'会員ログイン')])[2]</value>
-      <webElementGuid>0088902d-c7ef-439d-9935-96a2548778df</webElementGuid>
+      <webElementGuid>932fd637-c785-4470-b9f9-d2472ad5dc1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='お問い合わせフォーム'])[1]/following::a[2]</value>
-      <webElementGuid>35949b6e-2502-46f7-9c4b-11fe0867d2d2</webElementGuid>
+      <webElementGuid>0ac1d1da-ade6-4946-b0ee-c43efa17d735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='入札情報速報掲載'])[1]/preceding::a[1]</value>
-      <webElementGuid>5d3077a4-4a00-4613-8747-8265c3d23dbf</webElementGuid>
+      <webElementGuid>5fac14a7-ec16-4171-baec-dccaa1e1c84b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
-      <webElementGuid>efe5aa8b-654f-4c94-b495-c78cf9554149</webElementGuid>
+      <webElementGuid>e189cb82-0392-4aaf-ad60-649ca70180a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/a</value>
-      <webElementGuid>f6515c46-d1cc-42d7-a8c0-010d8c509f81</webElementGuid>
+      <webElementGuid>d7cf20ba-a6a4-48d0-92ff-66f1fa180f6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = '会員ログイン' or . = '会員ログイン')]</value>
-      <webElementGuid>df6e6dfb-359f-4e67-8155-87bd07d99145</webElementGuid>
+      <webElementGuid>673fe253-7ba0-4c78-a0ce-8c4cbe92867a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

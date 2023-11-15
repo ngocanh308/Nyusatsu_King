@@ -19,4 +19,9 @@
       <initValue>5000</initValue>
       <name>long_time</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://dev.nyusatsu-king.com:8080/admin/ad_login'</initValue>
+      <name>url_admin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

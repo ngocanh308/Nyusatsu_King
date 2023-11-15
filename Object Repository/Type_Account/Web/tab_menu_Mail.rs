@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='gnav']/ul/li[4]/a</value>
+         <value>li.authed-gnav__item:nth-child(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1f8a0ada-4faf-4973-9066-c4714272e9aa</webElementGuid>
+      <webElementGuid>38cc2ca4-f653-4b7b-8c96-89049589f25b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/usermenu/rakusatsu_notice/</value>
-      <webElementGuid>1d630ec0-b70d-4a76-b956-7996d2ac477e</webElementGuid>
+      <webElementGuid>25513071-792c-42d7-b956-fb19104028e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>関連落札メール配信案件指定確認・編集</value>
-      <webElementGuid>b10dc28e-9056-4335-a92b-ba1379239f86</webElementGuid>
+      <webElementGuid>15621f40-3913-4fdc-870c-4e41c2f7c404</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gnav&quot;)/ul[@class=&quot;authed-gnav&quot;]/li[@class=&quot;authed-gnav__item&quot;]/a[1]</value>
-      <webElementGuid>d7f7aa31-65fc-4306-8e73-875fb8557eec</webElementGuid>
+      <webElementGuid>67db9610-7104-4e18-98e1-b74ff2493f82</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='gnav']/ul/li[4]/a</value>
-      <webElementGuid>36ae06cc-d499-43cc-801d-11197d9ad655</webElementGuid>
+      <webElementGuid>e1239183-23d0-429c-b60b-2ae5e50e6b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(入札メール配信設定)（関連落札メール配信案件指定）'])[1]/following::a[1]</value>
-      <webElementGuid>519f061a-4280-477b-b7a8-23d15e4fad35</webElementGuid>
+      <webElementGuid>112c14fc-beed-48ec-a577-2a2781034d74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ブックマーク'])[2]/preceding::a[1]</value>
-      <webElementGuid>657a8269-302f-4c92-813b-b09539341eb6</webElementGuid>
+      <webElementGuid>15c6edf9-216d-40ed-b86a-c235c90d506f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/usermenu/rakusatsu_notice/')])[2]</value>
-      <webElementGuid>5875cea1-e6b3-4012-b77e-f15ea9948bf4</webElementGuid>
+      <webElementGuid>818b1ab6-6153-49bc-a0f4-53e8fae485bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/nav/ul/li[4]/a</value>
-      <webElementGuid>faf34fd2-ad27-4db1-918a-53bf400c0343</webElementGuid>
+      <webElementGuid>b79e0442-1f78-4cd7-b138-d4c4cd177b9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/usermenu/rakusatsu_notice/' and (text() = '関連落札メール配信案件指定確認・編集' or . = '関連落札メール配信案件指定確認・編集')]</value>
-      <webElementGuid>a1771d19-bab4-4d7d-8ef4-3b5447f7dec2</webElementGuid>
+      <webElementGuid>1921f2f0-6994-4df9-b55c-6c61e7382cc3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

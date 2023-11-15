@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tmp</name>
+   <name>lbl_title_popup_BlockID</name>
    <tag></tag>
-   <elementGuidId>8f072c39-260a-4977-9ce5-23a3f5d1b418</elementGuidId>
+   <elementGuidId>261292d0-b8e8-443e-91af-7bbc9bd4a402</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#js-block-mideum-val-0</value>
+         <value>#default_block p.form-ttl</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

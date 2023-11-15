@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.authed-gnav__item.global_02 > a</value>
+         <value>li.authed-gnav__item:nth-child(2)</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0b3da042-1910-410f-9607-75885a70ff8c</webElementGuid>
+      <webElementGuid>3ea56fbd-e896-448f-9e01-56e006134085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/yotei_search</value>
-      <webElementGuid>c7565130-1a6d-4bb8-b559-cc44b9d197fa</webElementGuid>
+      <webElementGuid>51b6e2ee-5a0f-436a-b4b5-dd785e614779</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>
               予定情報検索(予定情報メール配信設定)
             </value>
-      <webElementGuid>46564f9d-b456-4182-aeb7-fa7467670c7a</webElementGuid>
+      <webElementGuid>a045d428-9ec9-45b9-8ac8-c38c29f29496</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gnav&quot;)/ul[@class=&quot;authed-gnav&quot;]/li[@class=&quot;authed-gnav__item global_02&quot;]/a[1]</value>
-      <webElementGuid>35b56b5e-5011-44d5-b3a5-70d9e9b2239f</webElementGuid>
+      <webElementGuid>ea26ef07-37a0-4e65-a757-0003a7e29085</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='gnav']/ul/li[2]/a</value>
-      <webElementGuid>dbed8f68-5bd7-4965-97ec-4434d762cb73</webElementGuid>
+      <webElementGuid>65409c2b-75a1-4a72-a34a-2f2fcf9d1a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='予算書情報検索'])[1]/following::a[1]</value>
-      <webElementGuid>cc4fc55e-c70e-415a-bf37-65e3adf11a72</webElementGuid>
+      <webElementGuid>f1154612-eefe-4254-a771-1a0a97fab6fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='契約・登録情報'])[1]/following::a[3]</value>
-      <webElementGuid>d1ddd153-f836-4c29-a124-c1d8dbb93d8e</webElementGuid>
+      <webElementGuid>24e3cb4d-1ba5-4bbb-bbdc-32da7ceee430</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/yotei_search')]</value>
-      <webElementGuid>ead7cfff-704b-4801-ba4f-0e5f9f5b8239</webElementGuid>
+      <webElementGuid>40a30178-c2c4-472b-8128-d2537c4d80f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>15ca8e97-ee71-4e6f-8d10-de0b790011cc</webElementGuid>
+      <webElementGuid>0b95cdd3-c93a-4078-93da-dc90924bcffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,6 @@
             ' or . = '
               予定情報検索(予定情報メール配信設定)
             ')]</value>
-      <webElementGuid>a248c1b9-55ea-4225-8d22-b6ddd89b7f71</webElementGuid>
+      <webElementGuid>c40c6852-e206-42e5-ac8d-4bcc72f1aaa2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

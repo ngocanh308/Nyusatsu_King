@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>tmp_pto</name>
+   <name>tmp_admin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>60f97eab-69d7-4365-b218-451c618d5c0f</testCaseGuid>
+   <testCaseGuid>701b2f63-5f1f-4c88-94f4-4e1d045652c8</testCaseGuid>
 </TestCaseEntity>

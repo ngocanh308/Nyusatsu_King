@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='gnav']/ul/li[5]/a</value>
+         <value>li.authed-gnav__item:nth-child(5)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8096fe9b-3128-4775-bc57-c4062a56490e</webElementGuid>
+      <webElementGuid>fc3c907c-93a8-4923-be79-3c8def4bcf1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/usermenu/bookmark_anken/</value>
-      <webElementGuid>e3137cfa-19e1-48a8-b293-de4ce6e0aadc</webElementGuid>
+      <webElementGuid>95b77fd8-1f12-4031-bd8f-5cd977456a0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ブックマーク</value>
-      <webElementGuid>e6270bae-d9e9-4a85-b55c-dc8b3988417c</webElementGuid>
+      <webElementGuid>57954415-91bc-4715-ae04-cdf6182300f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gnav&quot;)/ul[@class=&quot;authed-gnav&quot;]/li[@class=&quot;authed-gnav__item&quot;]/a[1]</value>
-      <webElementGuid>9ac02d48-8c03-4eb0-81ad-6a3bc4ada356</webElementGuid>
+      <webElementGuid>8c3f778d-e2e1-4ec5-a9ca-d8eaa494b152</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='gnav']/ul/li[5]/a</value>
-      <webElementGuid>f26f4755-b8a4-4260-bc30-c5005fed35e2</webElementGuid>
+      <webElementGuid>fe3e0711-aa58-4457-ba1a-b7fcf94633a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='関連落札メール配信案件指定確認・編集'])[1]/following::a[1]</value>
-      <webElementGuid>f4c969aa-46d5-48a9-80f3-d1daf3ae99f5</webElementGuid>
+      <webElementGuid>02119d01-a715-4fde-86a8-036096189611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(入札メール配信設定)（関連落札メール配信案件指定）'])[1]/following::a[2]</value>
-      <webElementGuid>0d4e7a3a-6a4b-491b-b68f-d3f7b6c873e8</webElementGuid>
+      <webElementGuid>a32853b4-0211-47dc-863c-6d89c7372af7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='関連落札メール配信案件指定 確認・編集'])[1]/preceding::a[1]</value>
-      <webElementGuid>26ece133-49fc-4a60-86ef-f3714e43e64f</webElementGuid>
+      <webElementGuid>fa4ac811-e7ac-4051-9edd-f5c216002c28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/usermenu/bookmark_anken/')])[2]</value>
-      <webElementGuid>1d088745-4aaa-44f3-85b7-54e70f79afe8</webElementGuid>
+      <webElementGuid>1e58a521-21d1-4f17-8475-493cedbc5802</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/nav/ul/li[5]/a</value>
-      <webElementGuid>966c9325-72ed-48f0-b8f2-4d5aff1b699b</webElementGuid>
+      <webElementGuid>dcad36d4-137c-42cc-8fdb-5963059c29b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/usermenu/bookmark_anken/' and (text() = 'ブックマーク' or . = 'ブックマーク')]</value>
-      <webElementGuid>398c656a-6ca6-43c7-9aba-e7cb2186cf3c</webElementGuid>
+      <webElementGuid>32a5de34-59e1-47fd-af70-51eefe96776d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
